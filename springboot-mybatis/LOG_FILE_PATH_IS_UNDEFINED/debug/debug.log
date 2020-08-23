@@ -1,0 +1,202 @@
+FILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINEDFILE_LOG_PATTERN_IS_UNDEFINED[2020-08-23 19:40:17] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:40:17] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@68de3d4
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified.
+[2020-08-23 19:40:17] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+[2020-08-23 19:40:22] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-08-23 19:40:22] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@588e8678] was not registered for synchronization because synchronization is not active
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-3 - configuration:
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.cj.jdbc.Driver"
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/wu?serverTimezone=JST
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-3"
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cdbfd88
+[2020-08-23 19:40:22] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@4854573 wrapping com.mysql.cj.jdbc.ConnectionImpl@2cdbfd88] will not be managed by Spring
+[2020-08-23 19:40:22] -- [DEBUG]: [com.tokukun.blog.mapper.UserMapper.queryAllUsers] -- ==>  Preparing: select id, name, address, phone_number from user_master
+[2020-08-23 19:40:22] -- [DEBUG]: [com.tokukun.blog.mapper.UserMapper.queryAllUsers] -- ==> Parameters: 
+[2020-08-23 19:40:22] -- [DEBUG]: [com.tokukun.blog.mapper.UserMapper.queryAllUsers] -- <==      Total: 1
+[2020-08-23 19:40:22] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@588e8678]
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b4354f9
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a7e5ec2
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b9ef5ee
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a51a18d
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10374eab
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e1f9f65
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f9c13e5
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cbe139a
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@347ee3b4
+[2020-08-23 19:40:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:40:52] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:40:52] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:41:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:41:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:41:52] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:41:52] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:42:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:42:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:42:52] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:42:52] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:43:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:43:22] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2cdbfd88: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6b4354f9: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a7e5ec2: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1b9ef5ee: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a51a18d: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@10374eab: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e1f9f65: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4f9c13e5: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5cbe139a: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@347ee3b4: (connection evicted)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-3 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2020-08-23 19:43:40] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:43:40] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:43:40] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:43:40] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:43:40] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:43:40] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:44:42] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:44:42] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:44:42] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:44:42] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:44:42] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:44:42] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:44:47] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:44:47] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:44:47] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:44:47] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:44:47] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:44:47] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:45:07] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:45:08] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6d4043fe
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified.
+[2020-08-23 19:45:08] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+[2020-08-23 19:45:28] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:45:28] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:45:28] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:45:28] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:45:28] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:45:28] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:45:28] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@778ec753
+[2020-08-23 19:45:28] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified.
+[2020-08-23 19:45:29] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+[2020-08-23 19:45:34] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2020-08-23 19:45:34] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57dee44f] was not registered for synchronization because synchronization is not active
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- HikariPool-4 - configuration:
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.cj.jdbc.Driver"
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- exceptionOverrideClassName......none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/wu?serverTimezone=JST
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-4"
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23044177
+[2020-08-23 19:45:34] -- [DEBUG]: [org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@64497092 wrapping com.mysql.cj.jdbc.ConnectionImpl@23044177] will not be managed by Spring
+[2020-08-23 19:45:34] -- [DEBUG]: [com.tokukun.blog.mapper.UserMapper.queryAllUsers] -- ==>  Preparing: select id, name, address, phone_number from user_master
+[2020-08-23 19:45:34] -- [DEBUG]: [com.tokukun.blog.mapper.UserMapper.queryAllUsers] -- ==> Parameters: 
+[2020-08-23 19:45:34] -- [DEBUG]: [com.tokukun.blog.mapper.UserMapper.queryAllUsers] -- <==      Total: 1
+[2020-08-23 19:45:34] -- [DEBUG]: [org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57dee44f]
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69cb4308
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f64933
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19146088
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48d9b67c
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d26103e
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c978a14
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27141660
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5baf5df9
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@448e32ba
+[2020-08-23 19:45:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:46:04] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:46:04] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:46:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:46:34] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Fill pool skipped, pool is at sufficient level.
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23044177: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69cb4308: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@28f64933: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19146088: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48d9b67c: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7d26103e: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c978a14: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27141660: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5baf5df9: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.PoolBase] -- HikariPool-4 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@448e32ba: (connection evicted)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.pool.HikariPool] -- HikariPool-4 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2020-08-23 19:46:53] -- [DEBUG]: [com.tokukun.blog.SpringbootMybatisApplication] -- Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+[2020-08-23 19:46:53] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Searching for mappers annotated with @Mapper
+[2020-08-23 19:46:53] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Using auto-configuration base package 'com.tokukun.blog'
+[2020-08-23 19:46:53] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [C:\Users\teyibin\Desktop\eclipse2020\pleiades\workspace\springboot-mybatis\target\classes\com\tokukun\blog\mapper\UserMapper.class]
+[2020-08-23 19:46:53] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.tokukun.blog.mapper.UserMapper' mapperInterface
+[2020-08-23 19:46:53] -- [DEBUG]: [org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2020-08-23 19:46:53] -- [DEBUG]: [com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4b8c919a
+[2020-08-23 19:46:53] -- [DEBUG]: [org.mybatis.spring.SqlSessionFactoryBean] -- Property 'mapperLocations' was not specified.
+[2020-08-23 19:46:54] -- [DEBUG]: [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration] -- Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
